@@ -1,0 +1,10 @@
+# Campus Customs vendor desk (Python 3.10+; developed on 3.12)
+#   uv venv --python 3.12 .venv && source .venv/bin/activate
+#   uv pip install -r requirements.txt
+pydantic-ai-slim[openai]>=2.54,<3
+openai>=3.0
+python-dotenv>=1.0
+pypdf>=6.0
+beautifulsoup4>=4.12
+tiktoken>=0.8        # Problem 2 token count
+reportlab>=4.0       # only for scripts/make_attacks.py (rebuilds the red-team PDF)

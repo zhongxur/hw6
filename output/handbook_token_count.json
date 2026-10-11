@@ -1,0 +1,14 @@
+{
+  "characters": 28903,
+  "words": 6127,
+  "tiktoken_o200k_base": 10058,
+  "api_input_tokens_without_handbook": 9,
+  "api_input_tokens_with_handbook": 10067,
+  "api_handbook_tokens": 10058,
+  "prices_per_1m": {
+    "input_per_1m": 0.1,
+    "cached_input_per_1m": 0.01,
+    "cache_write_per_1m": 0.125,
+    "output_per_1m": 0.5
+  }
+}
